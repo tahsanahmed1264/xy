@@ -1,0 +1,94 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.header{
+padding-top: 15px;
+}
+.container {
+    padding: 0 0 15px;
+}
+.c_nav {
+    width: 100%;
+    padding: 0 15px;
+}
+.f_nav {
+    padding: 15px 0;
+}
+.logo {
+    width: 150px;
+}
+.menu ul li a {
+    font-size: 15px;
+    text-align: right;
+    margin-top: 7px;
+}
+/*header end*/
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.header {
+    height: 220vh;
+}
+.h_ad {
+    text-align: center;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.header {
+    height: 185vh;
+}
+.hero{
+    padding-top: 50px;
+}
+.h_h1 {
+    text-align: center;
+    font-size: 55px;
+}
+.h_h1 span {
+    font-size: 70px;
+}
+.h_a p {
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.h_ad{
+    text-align: center;
+}
+.h_ad2{
+    text-align: center;
+}
+.btn_cm {
+    font-size: 17px;
+    padding: 10px 25px;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+.header {
+    height: 240vh;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*header start*/
+.header {
+    height: 270vh;
+}
+}
+
+/* Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    /*header start*/
+.header {
+    height: 285vh;
+}
+}
